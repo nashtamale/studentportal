@@ -1,3 +1,145 @@
-learning to code on my own
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jomacs Academy - Welcome</title>
+  <style>
+    body {
+        font-family: 'Verdana', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #f3f4f6, #d6e6f3);
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    h1 {
+        font-size: 2.5rem;
+        color: #0d6efd;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-size: 1.5rem;
+        color: #555;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .buttons-container {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    .button {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        background-color: #0d6efd;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    .button:hover {
+        background-color: #0a58ca;
+        transform: scale(1.05);
+    }
+    table {
+        border-collapse: collapse;
+        width: 70%;
+        max-width: 600px;
+        background: #ffffff;
+        border: 2px solid #0d6efd;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+    th, td {
+        padding: 12px 15px;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #0d6efd;
+    }
+    th {
+        background: #0d6efd;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    tr:nth-child(odd) {
+        background-color: #f0f8ff;
+    }
+    tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+    tr:hover {
+    background-color: #ff69b4; /* Soft pink for better visibility */
+    color: #ffffff; /* White text for contrast */
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    .footer {
+        margin-top: 20px;
+        font-size: 1rem;
+        color: #555;
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Jomacs Academy</h1>
+  <h2>Student Portal</h2>
 
-Not easy but determined to make it work and worth
+  <div class="buttons-container">
+    <button class="button">View Scores</button>
+    <button class="button">Schedule Appointment</button>
+    <button class="button">Course Resources</button>
+    <button class="button">FAQs</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John Doe</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>92</td>
+      </tr>
+      <tr>
+        <td>Sam Brown</td>
+        <td>78</td>
+      </tr>
+      <tr>
+        <td>Alice Johnson</td>
+        <td>88</td>
+      </tr>
+      <tr>
+        <td>Michael Green</td>
+        <td>95</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer">Powered by Jomacs Academy</div>
+</body>
+</html>
+
